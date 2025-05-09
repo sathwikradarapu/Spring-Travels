@@ -1,0 +1,27 @@
+MODELS:
+------
+Bus
+Seats
+Users
+Registration
+Login
+
+BUS MODEL:
+---------
+(PK is automatically created with field id)
+1.bus_name
+2.number
+3.origin
+4.destination
+5.features
+6.start_time
+7.reach_time
+8.no_of_seats
+9.price
+
+SEAT_MODEL:
+----------
+(PK is automatically created with field id)
+1.bus(FK for bus)
+2.seat_number
+3.is_booked
